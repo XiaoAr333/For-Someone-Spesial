@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Untuk Kamu</title>
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Layar Pembuka -->
+      <div class="section" id="pembuka">
+        <p>Aku mau bilang sesuatu...</p>
+        <button onclick="mulai()">Next</button>
+      </div>
+
+      <!-- Kata-kata Indah -->
+      <div class="section" id="kataIndah" style="display: none">
+        <p id="kataTeks"></p>
+        <button onclick="nextKata()">Next</button>
+      </div>
+
+      <!-- Nembak -->
+      <div class="section" id="nembak" style="display: none">
+        <h1>❤️ Aku suka kamu...<br />Mau gak jadi pacarku?</h1>
+        <div class="tombol">
+          <button id="yaBtn" onclick="terima()">💖 Mau</button>
+          <button id="tidakBtn" onclick="hindar()">🙅 Gak mau</button>
+        </div>
+      </div>
+
+      <!-- Selamat + Waktu Jadian -->
+      <div class="section" id="selamat" style="display: none">
+        <p id="romantisTeks"></p>
+        <button onclick="nextRomantis()">❤️ Next</button>
+      </div>
+
+      <!-- Pertanyaan -->
+      <div class="section" id="ajakan" style="display: none">
+        <h2>Kapan kita jalan bareng?</h2>
+        <input type="text" id="jawaban" placeholder="Jawab di sini ya ❤️" />
+        <button onclick="kirimWhatsapp()">Kirim ke WhatsApp</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
