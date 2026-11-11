@@ -1,6 +1,6 @@
 const kataIndah = [
-  "Kamu itu seperti bintang, selalu bersinar di langit hatiku.",
-  "Kalau kamu jadi bunga, aku jadi lebahnya... selalu pengen deket kamu.",
+  "Kamu itu seperti Bulan ku, selalu bersinar di langit Malamku.",
+  "Kalau kamu jadi Riskaa, aku jadi Dukunmu... selalu pengen meramal deket kamu.",
   "Aku gak bisa berhenti mikirin kamu, beneran deh.",
   "Setiap detik bersamamu itu hadiah buat aku.",
 ];
@@ -82,7 +82,7 @@ function nextRomantis() {
 function kirimWhatsapp() {
   const jawaban = document.getElementById("jawaban").value.trim();
   if (jawaban !== "") {
-    const nomor = "6281234567890"; // Ganti dengan nomor Anda
+    const nomor = "6282398776223"; // Ganti dengan nomor Anda
 
     const teksPesan =
       "Hai! Aku seneng banget kita sekarang udah jadian 😍\n" +
